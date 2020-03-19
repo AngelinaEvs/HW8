@@ -18,15 +18,3 @@ public class WriteIntChar {
         }
     }
 }
-
-/*ArrayList<String> arrayList = new ArrayList<>(Arrays.asList("Барков", "Ибрагимова", "Евсикова", "Разувалова", "Файзуллин", "Романов",
-                "Горшенина", "Камалеев", "Будревич", "Сафиуллин", "Мажник", "Амирова", "Романчук", "Федорова",
-                "Тухватуллин", "Багманов", "Шагалиев", "Шакиржанов", "Максимов", "Гумерова", "Акчурина",
-                "Нурмухаметов", "Хасанов", "Зинатуллин", "Аликиличова", "Цаплин", "Ширманов"));
-        Collection engcl = arrayList;
-        NaviSet<String> eng = new NaviSet<String>(engcl, c1);
-        System.out.println(eng.toString());
-        System.out.println("remove: " + eng.remove("Ширманов") + " " + eng.toString());
-        System.out.println("contains: " + eng.contains("Акчурина"));
-        System.out.println("isEmpty: " + eng.isEmpty());
-        System.out.println();*/
