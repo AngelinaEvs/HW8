@@ -13,6 +13,7 @@ public class WriteIntChar {
             for (int i = 1; i >=0; i--) {
                 fileOutputStream.write(a >> i * 8);
             }
+            fileOutputStream.flush();
         } catch (IOException e) {
             System.err.println("Err");
         }
